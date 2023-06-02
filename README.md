@@ -1,4 +1,4 @@
-# iFishCam Rest API Documentation
+<h1 style="text-align: center;">iFishCam Rest API Documentation
 
 ## Introduction
 
@@ -12,11 +12,11 @@ The base URL for all API endpoints is: `http://<your-domain.com>/`
 
 ---
 
-## Users Endpoint
+<h2 style="text-align: center;"> Users Endpoint </h2>
 
 The base URL for Users endpoints is: `http://<your-domain.com>/api/users/`
 
-### Get User by ID
+## Get User by ID
 
 ```
 GET /:id
@@ -78,7 +78,7 @@ This endpoint retrieves a user by their ID.
       }
       ```
 
-### Create New User
+## Create New User
 
 ```
 POST /:id
@@ -147,7 +147,7 @@ This endpoint creates a new user.
       }
       ```
 
-### Update User
+## Update User
 
 ```
 PUT /:id
@@ -198,7 +198,7 @@ This endpoint updates a user by their ID.
       }
       ```
 
-### Upload Profile Photo
+## Upload Profile Photo
 
 ```
 POST /upload/:id
@@ -265,7 +265,7 @@ This endpoint uploads a profile photo for a user.
       }
       ```
 
-### Delete User
+## Delete User
 
 ```
 DELETE /:id
@@ -312,11 +312,11 @@ This endpoint deletes a user by their ID.
 
 ---
 
-## User History Endpoint
+<h2 style="text-align: center;">  User History Endpoint </h2>
 
 The base URL for Histories endpoints is: `http://<your-domain.com>/api/histories/`
 
-### Get User History by User ID
+## Get User History by User ID
 
 ```
 GET /:id
@@ -384,7 +384,7 @@ This endpoint retrieves the history data of a user based on the provided user ID
       }
       ```
 
-### Delete User History
+## Delete User History
 
 ```
 DELETE /:id
@@ -447,11 +447,11 @@ This endpoint deletes a specific user history based on the provided user ID and 
 
 ---
 
-## User Story Endpoint
+<h2 style="text-align: center;"> User Story Endpoint </h2>
 
 The base URL for Stories endpoints is: `http://<your-domain.com>/api/stories/`
 
-### Get Story by User ID
+## Get Story by User ID
 
 ```
 GET /:id
@@ -520,7 +520,7 @@ This endpoint retrieves the stories associated with a specific user.
       }
       ```
 
-### Get All User Stories
+## Get All User Stories
 
 ```
 GET /
@@ -661,7 +661,7 @@ This endpoint creates a new story associated with a specific user.
       }
       ```
 
-### Delete Story
+## Delete Story
 
 ```
 DELETE /:id
@@ -724,11 +724,11 @@ This endpoint deletes a story associated with a specific user.
 
 ---
 
-## Predictions Endpoint
+<h2 style="text-align: center;"> Predictions Endpoint </h2>
 
 The base URL for Predictions endpoints is: `http://<your-domain.com>/api/predicts/`
 
-### Get Prediction
+## Get Prediction
 
 ```
 POST /:id
@@ -815,11 +815,11 @@ This endpoint sends an image file for prediction and returns the prediction resu
 
 ---
 
-## Fish Endpoint
+<h2 style="text-align: center;"> Fish Endpoint </h2>
 
 The base URL for Fish endpoints is: `http://<your-domain.com>/api/fishs/`
 
-### Get Specific
+## Get Specific
 
 ```
 GET /:id
@@ -879,7 +879,7 @@ This endpoint retrieves the details of a specific fish.
       }
       ```
 
-### Add New Fish
+## Add New Fish
 
 ```
 POST /
@@ -959,7 +959,7 @@ This endpoint adds a new fish to the database.
       }
       ```
 
-### Update Fish
+## Update Fish
 
 ```
 PUT /:id
@@ -1016,7 +1016,7 @@ This endpoint updates the details of a specific fish.
       }
       ```
 
-### Delete Fish
+## Delete Fish
 
 ```
 DELETE /{id}
@@ -1062,11 +1062,11 @@ This endpoint deletes a specific fish from the database.
 
 ---
 
-## Recipes Endpoint
+<h2 style="text-align: center;"> Recipes Endpoint </h2>
 
 The base URL for Recipes endpoints is: `http://<your-domain.com>/api/recipes/`
 
-### Get All Fish Recipes
+## Get All Fish Recipes
 
 ```
 GET /
@@ -1117,7 +1117,7 @@ This endpoint fetches all fish recipes available on masakapahariini.com.
       Internal Server Error
       ```
 
-### Get Specific Fish Recipes
+## Get Specific Fish Recipes
 
 ```
 GET /:id
@@ -1172,11 +1172,11 @@ This endpoint fetches recipes specific to a particular fish.
 
 ---
 
-## Articles Endpoint
+<h2 style="text-align: center;"> Articles Endpoint </h2>
 
 The base URL for Articles endpoints is: `http://<your-domain.com>/api/articles/`
 
-### Get Fish Articles
+## Get Fish Articles
 
 Exposes a single endpoint to retrieves fish articles from the Detik.com website.
 
