@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">iFishCam Rest API Documentation
+<h1 align="center">iFishCam Rest API Documentation
 
 ## Introduction
 
@@ -12,7 +12,7 @@ The base URL for all API endpoints is: `http://<your-domain.com>/`
 
 ---
 
-<h2 style="text-align: center;"> Users Endpoint </h2>
+<h2 align="center"> Users Endpoint </h2>
 
 The base URL for Users endpoints is: `http://<your-domain.com>/api/users/`
 
@@ -312,7 +312,7 @@ This endpoint deletes a user by their ID.
 
 ---
 
-<h2 style="text-align: center;">  User History Endpoint </h2>
+<h2 align="center">  User History Endpoint </h2>
 
 The base URL for Histories endpoints is: `http://<your-domain.com>/api/histories/`
 
@@ -447,7 +447,7 @@ This endpoint deletes a specific user history based on the provided user ID and 
 
 ---
 
-<h2 style="text-align: center;"> User Story Endpoint </h2>
+<h2 align="center"> User Story Endpoint </h2>
 
 The base URL for Stories endpoints is: `http://<your-domain.com>/api/stories/`
 
@@ -724,7 +724,7 @@ This endpoint deletes a story associated with a specific user.
 
 ---
 
-<h2 style="text-align: center;"> Predictions Endpoint </h2>
+<h2 align="center"> Predictions Endpoint </h2>
 
 The base URL for Predictions endpoints is: `http://<your-domain.com>/api/predicts/`
 
@@ -815,7 +815,7 @@ This endpoint sends an image file for prediction and returns the prediction resu
 
 ---
 
-<h2 style="text-align: center;"> Fish Endpoint </h2>
+<h2 align="center"> Fish Endpoint </h2>
 
 The base URL for Fish endpoints is: `http://<your-domain.com>/api/fishs/`
 
@@ -1062,7 +1062,7 @@ This endpoint deletes a specific fish from the database.
 
 ---
 
-<h2 style="text-align: center;"> Recipes Endpoint </h2>
+<h2 align="center"> Recipes Endpoint </h2>
 
 The base URL for Recipes endpoints is: `http://<your-domain.com>/api/recipes/`
 
@@ -1172,7 +1172,7 @@ This endpoint fetches recipes specific to a particular fish.
 
 ---
 
-<h2 style="text-align: center;"> Articles Endpoint </h2>
+<h2 align="center"> Articles Endpoint </h2>
 
 The base URL for Articles endpoints is: `http://<your-domain.com>/api/articles/`
 
